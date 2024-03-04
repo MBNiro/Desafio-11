@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="signup-form">
+    <h2 class="form-title">Sign up</h2>
+    <form method="post" class="form" id="form">
+
+      <div class="form-group">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Email" />
+      </div>
+      <div class="form-group">
+        <label for="pass"></label>
+        <input
+          type="password"
+          name="pass"
+          id="password"
+          placeholder="Contraseña"
+        />
+      </div>
+
+      <div class="form-group-button">
+        <a href="/register">Registrate aqui</a>
+      </div>
+
+      <div class="form-group form-button">
+        <input
+          type="submit"
+          name="signup"
+          id="signup"
+          class="form-submit"
+          value="Login"
+        />
+
+        <input
+          type="submit"
+          name="boton"
+          id="boton"
+          class="form-submit"
+          value="Test Token"
+        />
+      </div>
+
+    </form>
+  </div>
+</div>
+<script src="/js/jwt.js"></script>

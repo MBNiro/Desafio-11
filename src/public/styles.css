@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+body {
+  font-size: 13px;
+  line-height: 1.8;
+  color: grey;
+  background: rgb(192, 192, 240);
+  font-weight: 400;
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+}
+
+.signup-form {
+  padding: 55px;
+  overflow: hidden;
+}
+
+.form-title {
+  margin-bottom: 33px;
+}
+
+h2 {
+  line-height: 1.66;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #222;
+  font-family: Poppins;
+  font-size: 36px;
+}
+
+.form {
+  width: 100%;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+label {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  color: grey;
+}
+
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0px;
+}
+input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid green;
+  padding: 6px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.container {
+  background: rgb(185, 185, 227);
+  margin: 0 auto;
+  box-shadow: 0 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 25px;
+}
+.form-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-submit {
+  display: inline-block;
+  background: green;
+  color: grey;
+  border-bottom: none;
+  width: auto;
+  padding: 15px 39px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background: red;
+  color:grey;
+}
+
+input#email {
+  width: 350px;
+}
+
+.form-group-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  margin-bottom: 30px;
+  color: #222;
+}
+
+a:hover {
+  color:orange;
+}

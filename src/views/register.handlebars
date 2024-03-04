@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="signup-form">
+    <h2 class="form-title">Register</h2>
+    <form action="/users/register" method="post" class="form" id="form">
+
+      <div class="form-group">
+        <label for="first_name"> </label>
+        <input
+          placeholder="Nombre"
+          type="text"
+          name="first_name"
+          id="first_name"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="last_name"></label>
+        <input
+          placeholder="Apellido"
+          type="text"
+          name="last_name"
+          id="last_name"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email"></label>
+        <input placeholder="Email" type="email" name="email" id="email" />
+      </div>
+
+      <div class="form-group">
+        <label for="age"></label>
+        <input placeholder="Edad" type="number" name="age" id="age" />
+      </div>
+
+      <div class="form-group">
+        <label for="pass"> </label>
+        <input
+          placeholder="Contraseña"
+          type="password"
+          name="password"
+          id="password"
+        />
+      </div>
+
+      <div class="form-group-button">
+        <a href="/login">Tienes cuenta? Logeate ya!</a>
+      </div>
+
+      <div class="form-group-button form-button">
+        <input
+          type="submit"
+          name="register"
+          id="signup"
+          class="form-submit"
+          value="Registrate"
+        /></div>
+    </form>
+  </div>
+</div>
